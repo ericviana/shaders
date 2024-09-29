@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,6 @@
 		073509132C7AB1ED00BFD107 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073509122C7AB1ED00BFD107 /* ContentView.swift */; };
 		073509152C7AB1EE00BFD107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073509142C7AB1EE00BFD107 /* Assets.xcassets */; };
 		073509182C7AB1EE00BFD107 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073509172C7AB1EE00BFD107 /* Preview Assets.xcassets */; };
-		0735091F2C7AB25E00BFD107 /* Wave.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0735091E2C7AB25E00BFD107 /* Wave.metal */; };
 		073509212C7AB8A800BFD107 /* View+Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073509202C7AB8A800BFD107 /* View+Wave.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,9 +20,15 @@
 		073509122C7AB1ED00BFD107 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		073509142C7AB1EE00BFD107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		073509172C7AB1EE00BFD107 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0735091E2C7AB25E00BFD107 /* Wave.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Wave.metal; sourceTree = "<group>"; };
 		073509202C7AB8A800BFD107 /* View+Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Wave.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		075116652CA8F59300489B62 /* DistortionEffects */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = DistortionEffects; sourceTree = "<group>"; };
+		075116662CA8F5DF00489B62 /* ColorEffects */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ColorEffects; sourceTree = "<group>"; };
+		075116672CA8F5EB00489B62 /* LayerEffects */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = LayerEffects; sourceTree = "<group>"; };
+		075116682CA8F5F500489B62 /* MoreEffects */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MoreEffects; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0735090A2C7AB1ED00BFD107 /* Frameworks */ = {
@@ -55,10 +60,13 @@
 		0735090F2C7AB1ED00BFD107 /* shaders */ = {
 			isa = PBXGroup;
 			children = (
+				075116682CA8F5F500489B62 /* MoreEffects */,
+				075116672CA8F5EB00489B62 /* LayerEffects */,
+				075116662CA8F5DF00489B62 /* ColorEffects */,
+				075116652CA8F59300489B62 /* DistortionEffects */,
 				073509202C7AB8A800BFD107 /* View+Wave.swift */,
 				073509102C7AB1ED00BFD107 /* shadersApp.swift */,
 				073509122C7AB1ED00BFD107 /* ContentView.swift */,
-				0735091E2C7AB25E00BFD107 /* Wave.metal */,
 				073509142C7AB1EE00BFD107 /* Assets.xcassets */,
 				073509162C7AB1EE00BFD107 /* Preview Content */,
 			);
@@ -87,6 +95,12 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				075116652CA8F59300489B62 /* DistortionEffects */,
+				075116662CA8F5DF00489B62 /* ColorEffects */,
+				075116672CA8F5EB00489B62 /* LayerEffects */,
+				075116682CA8F5F500489B62 /* MoreEffects */,
 			);
 			name = shaders;
 			productName = shaders;
@@ -144,7 +158,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				073509132C7AB1ED00BFD107 /* ContentView.swift in Sources */,
-				0735091F2C7AB25E00BFD107 /* Wave.metal in Sources */,
 				073509112C7AB1ED00BFD107 /* shadersApp.swift in Sources */,
 				073509212C7AB8A800BFD107 /* View+Wave.swift in Sources */,
 			);
