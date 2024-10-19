@@ -33,7 +33,7 @@ private struct WaveModifier: ViewModifier {
 }
 
 extension View {
-    func wave(length: CGFloat = 15, amplitude: CGFloat = 5, speed: CGFloat = 1) -> some View {
+    func wave(length: CGFloat = 15, amplitude: CGFloat = 5, speed: CGFloat = 2) -> some View {
         modifier(WaveModifier(length: length, amplitude: amplitude, speed: speed))
     }
 }
