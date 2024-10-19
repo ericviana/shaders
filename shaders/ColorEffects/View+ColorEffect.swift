@@ -53,7 +53,7 @@ struct TimeVaryingShader: ViewModifier {
                     .colorEffect(
                         ShaderLibrary.timeVaryingColor(
                             .float2(proxy.size),
-                            .float2(startDate.timeIntervalSinceNow)
+                            .float(startDate.timeIntervalSinceNow)
                         )
                     )
             }
