@@ -11,7 +11,6 @@
 		073509132C7AB1ED00BFD107 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073509122C7AB1ED00BFD107 /* ContentView.swift */; };
 		073509152C7AB1EE00BFD107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073509142C7AB1EE00BFD107 /* Assets.xcassets */; };
 		073509182C7AB1EE00BFD107 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073509172C7AB1EE00BFD107 /* Preview Assets.xcassets */; };
-		073509212C7AB8A800BFD107 /* View+Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073509202C7AB8A800BFD107 /* View+Wave.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		073509122C7AB1ED00BFD107 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		073509142C7AB1EE00BFD107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		073509172C7AB1EE00BFD107 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		073509202C7AB8A800BFD107 /* View+Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Wave.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -64,7 +62,6 @@
 				075116672CA8F5EB00489B62 /* LayerEffects */,
 				075116662CA8F5DF00489B62 /* ColorEffects */,
 				075116652CA8F59300489B62 /* DistortionEffects */,
-				073509202C7AB8A800BFD107 /* View+Wave.swift */,
 				073509102C7AB1ED00BFD107 /* shadersApp.swift */,
 				073509122C7AB1ED00BFD107 /* ContentView.swift */,
 				073509142C7AB1EE00BFD107 /* Assets.xcassets */,
@@ -159,7 +156,6 @@
 			files = (
 				073509132C7AB1ED00BFD107 /* ContentView.swift in Sources */,
 				073509112C7AB1ED00BFD107 /* shadersApp.swift in Sources */,
-				073509212C7AB8A800BFD107 /* View+Wave.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
